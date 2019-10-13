@@ -1,7 +1,6 @@
 # the-french-oven
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+The new website of The French Oven, a bakery in Mississauga, Canada.
 
 ## Prerequisites
 
