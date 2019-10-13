@@ -1,4 +1,15 @@
-html, body {
+$app-width: 850px;
+$nav-bar-height: 58px;
+
+html {
+  box-sizing: border-box;
+}
+
+*, ::after, ::before {
+  box-sizing: inherit;
+}
+
+body {
   margin: 0;
 }
 

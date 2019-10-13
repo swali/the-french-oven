@@ -1,23 +1,37 @@
 .navbar {
-  position: fixed;
+  position: sticky;
   top: 0;
+  height: $nav-bar-height;
   width: 100%;
   background-color: white;
+  line-height: 1.43;
+  font-family: 'Lato', sans-serif;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.15);
+  background-color: #f9f4ee;
 
   &__list {
+    width: $app-width;
+    height: 100%;
     display: flex;
     justify-content: center;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
   }
 
   &__link {
-    padding: 16px 20px;
+    padding: 20px 22px 0;
+    height: 100%;
     display: block;
     text-decoration: none;
-    color: red;
+    color: #533019;
   }
 
   &__logo {
-    margin-right: 70px;
+    padding: 16px 0 0 0;
+    margin-right: 168px;
+    width: 208px;
+  }
+
+  &__logo-image {
+    max-width: 100%;
   }
 }

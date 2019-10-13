@@ -1,6 +1,8 @@
 @import "global";
 @import "navbar";
+@import "home";
 
 .application__content {
-  margin-top: 70px;
+  margin: 28px auto;
+  width: $app-width;
 }
