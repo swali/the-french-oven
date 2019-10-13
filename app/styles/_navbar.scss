@@ -1,5 +1,23 @@
 .navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+
   &__list {
     display: flex;
+    justify-content: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  &__link {
+    padding: 16px 20px;
+    display: block;
+    text-decoration: none;
+    color: red;
+  }
+
+  &__logo {
+    margin-right: 70px;
   }
 }
