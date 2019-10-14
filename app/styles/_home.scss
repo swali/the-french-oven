@@ -1,4 +1,118 @@
 .home {
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.15);
-  height: 624px;
+
+  // carousel section
+  &__carousel {
+    height: 259px;
+    background-image: url("/assets/images/home/confetti@2x.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  // contact section
+  &__contact {
+    height: 165px;
+    display: flex;
+  }
+
+  &__get-in-touch,
+  &__our-location,
+  &__whats-new {
+    height: 100%;
+    flex: 1;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  &__get-in-touch-header,
+  &__our-location-header,
+  &__whats-new-header {
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 24px;
+  }
+
+  // get in touch subsection
+  &__get-in-touch {
+    background-image: url("/assets/images/home/get-in-touch.svg");
+  }
+
+  &__get-in-touch-header {
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+
+  &__tel,
+  &__email,
+  &__fax {
+    margin-bottom: 8px;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  // our location subsection
+  &__our-location {
+    background-image: url("/assets/images/home/our-location.svg");
+    color: #3a3a3a;
+  }
+
+  &__our-location-header {
+    margin-bottom: 44px;
+  }
+
+  &__address {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    font-style: normal;
+  }
+
+  &__address2 {
+    display: block;
+    margin-bottom: 6px;
+  }
+
+  &__address-link {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  // whats new subsection
+  &__whats-new {
+    background-image: url("/assets/images/home/whats-new.svg");
+    color: #ffffff;
+  }
+
+  &__whats-new-header {
+    margin-bottom: 20px;
+  }
+
+  &__whats-new-desc,
+  &__whats-new-link {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    font-style: normal;
+    max-width: 75%;
+  }
+
+  &__whats-new-desc {
+    margin: 0 0 12px 0;
+  }
+
+  &__whats-new-link {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  // nut free section
+  &__nut-free {
+    height: 220px;
+  }
 }
