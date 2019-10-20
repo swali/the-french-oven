@@ -1,54 +1,11 @@
-<section class="home">
-  <div class="home__carousel">
-    <div class="flex-center">
-      <img class="home__slide-image" src="/assets/images/home/blackforest@2x.png" alt="Black Forest cake">
-      <div class="home__slide-description">
-        <p class="home__slide-description-text">Treat yourself to our creamy and moist Black Forest cake.</p>
-        <a src="#" class="home__slide-link">See our 8" cakes</a>
-      </div>
-    </div>
-  </div>
-  <div class="home__contact">
-    <div class="home__get-in-touch">
-      <h3 class="home__get-in-touch-header">GET IN TOUCH</h3>
-      <div class="home__phone">
-        <i class="home__phone-icon"></i>
-        <a href="tel:+1-905-629-7171" class="home__phone-number">905-629-7171</a>
-      </div>
-      <div class="home__email">
-        <i class="home__email-icon"></i>
-        <a href="mailto:cakes@thefrenchoven.on.ca" class="home__email-address">cakes@thefrenchoven.on.ca</a>
-      </div>
-      <a href="tel:+1-905-629-6747" class="home__fax">Fax: 905-629-6747</a>
-    </div>
-    <div class="home__our-location">
-      <h3 class="home__our-location-header">OUR LOCATION</h3>
-      <address class="home__address">
-        <i class="home__map-icon"></i>
-        <span class="home__address1">5240 Bradco Blvd</span><br>
-        <span class="home__address2">Mississauga ON L4W 1G7</span>
-        <a href="google.com" class="home__address-link">Open in maps</a>
-        <i class="home__arrow-up-right-icon"></i>
-      </address>
-    </div>
-    <div class="home__whats-new">
-      <h3 class="home__whats-new-header">WHAT&#39;S NEW?</h3>
-      <p class="home__whats-new-desc">'Tis the Season' to be jolly and enjoy our delicous, festive christmas cakes!</p>
-      <div class="home__whats-new-link">
-        <a href="#" class="home__whats-new-link-anchor">See them here</a>
-        <i class="home__arrow-right-icon"></i>
-      </div>
-    </div>
-  </div>
-  <div class="home__nut-free flex-center">
-    <div class="home__nut-free-description">
-      <h3 class="home__nut-free-header">We make peanut and nut free cakes.</h3>
-      <p class="home__nut-free-description-text">Our facility remains a nut-free environment at all times. We also provide non-dairy whipped icing and don’t use animal fats or alcoholic flavorings.</p>
-      <a src="#" class="home__nut-free-link">Learn about us</a>
-    </div>
-    <div class="home__nut-free-images">
-      <img class="home__no-peanut-image" src="/assets/images/home/no-peanut.svg" alt="Peanut free">
-      <img src="/assets/images/home/no-nut.svg" alt="Nut free">
-    </div>
-  </div>
-</section>
+<div class="home">
+
+  {{!-- Top section - Carousel --}}
+  <Home::Carousel @tagName="" />
+
+  {{!-- Middle section - Contact --}}
+  <Home::Contact @tagName="" />
+
+  {{!-- Bottom section - Nut free --}}
+  <Home::NutFree @tagName="" />
+</div>

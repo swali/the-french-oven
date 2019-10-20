@@ -1,0 +1,34 @@
+.home-nut-free {
+  height: 220px;
+  border-radius: 2px;
+  background-color: #f2f2f2;
+
+  &__header {
+    margin-bottom: 12px;
+    font-family: 'RobotoSlab', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.25;
+    color: #707071;
+  }
+
+  &__description {
+    max-width: 322px;
+  }
+
+  &__description-text {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 1.43;
+    color: #707071;
+    margin-bottom: 16px;
+  }
+
+  &__images {
+    margin-left: 60px;
+  }
+
+  &__no-peanut-image {
+    margin-right: 22px;
+  }
+}
