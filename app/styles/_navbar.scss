@@ -8,6 +8,7 @@
   font-family: 'Lato', sans-serif;
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.15);
   background-color: #f9f4ee;
+  z-index: 2;
 
   &__list {
     width: $app-width;
