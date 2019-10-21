@@ -1,3 +1,7 @@
+// mixins
+@import "mixins/topless-box-shadow";
+
+// main css
 @import "common";
 @import "home";
 @import "home/carousel";

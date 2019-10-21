@@ -1,13 +1,19 @@
 .home-carousel {
   height: 259px;
-  background-image: url("/assets/images/home/confetti@2x.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
   position: relative;
 
   &__slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("/assets/images/home/sprinkles@2x.png");
+    background-size: 240px 175px;
+    background-repeat: no-repeat;
+    background-position: top right;
     opacity: 0;
-    transition: opacity 2.5s ease-in-out;
+    transition: opacity 1s ease-in-out;
   }
 
   &__active {
