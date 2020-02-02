@@ -1,5 +1,5 @@
 .home-contact {
-  height: 165px;
+  height: 184px;
   display: flex;
 
 
@@ -70,7 +70,7 @@
     background-size: cover;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
   }
 
@@ -80,7 +80,7 @@
     font-family: 'Roboto Slab', sans-serif;
     font-size: 16px;
     font-weight: bold;
-    margin-top: 24px;
+    margin-top: 0;
   }
 
   // get in touch subsection
@@ -100,7 +100,7 @@
   }
 
   &__our-location-header {
-    margin-bottom: 44px;
+    margin-bottom: 54px;
   }
 
   &__address {
