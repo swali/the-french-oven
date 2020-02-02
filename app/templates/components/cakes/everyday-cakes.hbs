@@ -1,1 +1,15 @@
 Everyday Cakes
+
+Everyday cakes are the best!
+
+<ul class="everyday-cakes__cake-list">
+  {{#each this.cakes as |cake|}}
+    <li class="everyday-cakes__cake">
+      <div class="everyday-cakes__text">
+        <h3>{{cake.name}}</h3>
+        <p>{{cake.description}}</p>
+      </div>
+      <img src={{cake.imageUrl}} class="everyday-cakes__image" alt="">
+    </li>
+  {{/each}}
+</ul>
