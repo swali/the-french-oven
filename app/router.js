@@ -8,6 +8,7 @@ const Router = EmberRouter.extend({
 
 Router.map(function() {
   this.route('home', { path: '/' });
+  this.route('everyday-cakes');
 });
 
 export default Router;
