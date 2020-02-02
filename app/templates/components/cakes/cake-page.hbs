@@ -1,0 +1,17 @@
+<h1 class="cake-page__title">{{@title}}</h1>
+
+<p class="cake-page__description">
+  {{@description}}
+</p>
+
+<ul class="cake-page__cake-list">
+  {{#each @cakes as |cake|}}
+    <li class="cake-page__cake">
+      <div class="cake-page__cake-text">
+        <h3 class="cake-page__cake-name">{{cake.name}}</h3>
+        <p class="cake-page__cake-description">{{cake.description}}</p>
+      </div>
+      <img src={{cake.imageUrl}} class="cake-page__cake-image" alt="Image for {{cake.name}}">
+    </li>
+  {{/each}}
+</ul>
