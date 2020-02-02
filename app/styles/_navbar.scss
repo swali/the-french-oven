@@ -3,7 +3,6 @@
   top: 0;
   height: $nav-bar-height;
   width: 100%;
-  background-color: white;
   line-height: 1.43;
   font-family: 'Lato', sans-serif;
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.15);
@@ -14,7 +13,7 @@
     width: $app-width;
     height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin: 0 auto;
   }
 
