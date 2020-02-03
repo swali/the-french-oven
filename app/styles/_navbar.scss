@@ -13,7 +13,6 @@
     width: $app-width;
     height: 100%;
     display: flex;
-    justify-content: space-between;
     margin: 0 auto;
   }
 
@@ -23,12 +22,24 @@
     display: block;
     text-decoration: none;
     color: #533019;
+
+    &.active {
+      border-bottom: 2px solid #533019;
+    }
+  }
+
+  &__logo-container {
+    flex: 1;
   }
 
   &__logo {
     padding: 16px 0 0 0;
     margin-right: 168px;
     width: 208px;
+
+    &.active {
+      border-bottom: none;
+    }
   }
 
   &__logo-image {
