@@ -1,0 +1,42 @@
+/**
+Example usage:
+
+<li class="dropdown">
+  <span>Cakes</span>
+  <ul class="dropdown__content">
+    <li class="dropdown__item"><LinkTo @route="everyday-cakes" class="dropdown__link">Everyday cakes</LinkTo></li>
+    <li class="dropdown__item"><LinkTo @route="celebration-cakes" class="dropdown__link">Celebration cakes</LinkTo></li>
+</li>
+*/
+
+.dropdown {
+  position: relative;
+  cursor: default;
+
+  &__content {
+    position: absolute;
+    width: 168px;
+    left: 22px;
+    padding: 4px 16px;
+    box-shadow: 0 6px 9px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    display: none;
+  }
+
+  &:hover &__content {
+    display: inherit;
+  }
+
+  &__item {
+    padding: 8px 0;
+  }
+
+  &__link {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.43;
+    color: #533019;
+    text-decoration: none;
+  }
+}
