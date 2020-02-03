@@ -2,7 +2,7 @@ export default [
   {
     name: 'Sprinkly Vanilla Cake',
     description:
-      'Vanilla sponges filled with creamy vanilla icing, decorated with rosettes and sprinkled with chocolate chips. Also available in a chocolate flavour.',
+      'Vanilla sponges filled with creamy vanilla icing, decorated with rosettes and sprinkled with chocolate chips. Also available in chocolate.',
     imageUrl: '/assets/images/cakes/7-inch-sprinky-vanilla.jpg',
   },
   {
@@ -20,7 +20,7 @@ export default [
   {
     name: 'Celebration Cake',
     description:
-      'Chocolate cake baked with colorful sugar confetti, frosted with our signature colorful balloons. Also available in a vanilla flavour.',
+      'Chocolate cake baked with colorful sugar confetti, frosted with our signature colorful balloons. Also available in vanilla.',
     imageUrl: '/assets/images/cakes/7-inch-celebration-chocoloate.jpg',
   },
   {
@@ -36,15 +36,15 @@ export default [
     imageUrl: '/assets/images/cakes/7_inch_chocolate_fudge.jpg',
   },
   {
-    name: 'Classic Caramel Cake',
+    name: 'Chocolate Caramel Cake',
     description:
-      'Moist vanilla cake topped with rich melt-in-your-mouth caramel, decorated with vanilla shavings and finished with an elegant chocolate garnish.',
+      'Moist chocolate cake with rich melt-in-your-mouth caramel, decorated with chocolate shavings and finished with an elegant chocolate garnish.',
     imageUrl: '/assets/images/cakes/7_inch_caramel.jpg',
   },
   {
-    name: 'Mocca Cake',
+    name: 'Kit Kat Cake',
     description:
-      'Layer of creamy vanilla sponge filled with coffee flavoured chocolate fudge icing, finished with vanilla and chocolate cookie crumbs.',
-    imageUrl: '/assets/images/cakes/7_inch_mocca.jpg',
+      'Two layers of chocolate cake with moist frosting surrounded with delicous whipped topping and decorated with crunchy Kit Kat bars.',
+    imageUrl: '/assets/images/cakes/7_inch_kitkat.jpg',
   },
 ];

@@ -1,50 +1,50 @@
 export default [
   {
-    name: 'Sprinkly Vanilla Cake',
+    name: 'Pirate Adventure Cake',
     description:
-      'Vanilla sponges filled with creamy vanilla icing, decorated with rosettes and sprinkled with chocolate chips. Also available in a chocolate flavour.',
-    imageUrl: '/assets/images/cakes/7-inch-sprinky-vanilla.jpg',
+      'Half Slab Vanilla Double Layer Cake with custard filling masked with butter cream icing and decorations.',
+    imageUrl: '/assets/images/cakes/kids_explorer.jpg',
   },
   {
-    name: 'Double Chocolate Cake',
+    name: 'Lightning McQueen Car Cake',
     description:
-      'Chocolate sponges filled with creamy chocolate icing, decorated with rosettes and sprinkled with chocolate cookie crunch.',
-    imageUrl: '/assets/images/cakes/7-inch-double-chocoloate.jpg',
+      'Half Slab Vanilla Double Layer Cake with chocolate cream filling masked with butter cream icing and decorations.',
+    imageUrl: '/assets/images/cakes/kids_cars.jpg',
   },
   {
-    name: 'Black Forest Cake',
+    name: 'Thomas The Tank Engine Cake',
     description:
-      'Two chocolate sponges with a cherry pastry filling, finished with non-dairy whipped topping and decorated with rosettes, candied cherries and chocolate shavings.',
-    imageUrl: '/assets/images/cakes/7_inch_black_forest.jpg',
+      'Half Slab Vanilla Double Layer Cake with cherry filling masked with butter cream icing and decorations.',
+    imageUrl: '/assets/images/cakes/kids_train.jpg',
   },
   {
-    name: 'Celebration Cake',
+    name: 'Spider Man Theme',
     description:
-      'Chocolate cake baked with colorful sugar confetti, frosted with our signature colorful balloons. Also available in a vanilla flavour.',
-    imageUrl: '/assets/images/cakes/7-inch-celebration-chocoloate.jpg',
+      'Quarter Slab Vanilla Triple Layer Cake with chocolate cream and vanilla cream filling masked with butter cream icing and decorations.',
+    imageUrl: '/assets/images/cakes/kids_spiderMan.jpg',
   },
   {
-    name: 'Carrot Cake',
+    name: 'Little Mermaid Theme',
     description:
-      'Two rounds of carrot cake filled with cream cheese icing, finished with traditional cream cheese icing and decorated with icing carrots.',
-    imageUrl: '/assets/images/cakes/7-inch-carrot.jpg',
+      'Half Slab Chocolate Cake with mocca filling masked with butter cream icing and decorations.',
+    imageUrl: '/assets/images/cakes/kids_mermaid.jpg',
   },
   {
-    name: 'Chocolate Fudge Cake',
+    name: 'Princess Cake',
     description:
-      'Two chocolate sponges filled and finished with creamy chocolate fudge icing, topped with a chocolate rosette.',
-    imageUrl: '/assets/images/cakes/7_inch_chocolate_fudge.jpg',
+      'Half Slab Vanilla Cake baked in the shape of a princess masked with butter cream icing and decorations.',
+    imageUrl: '/assets/images/cakes/kids_disneyPrincess.jpg',
   },
   {
-    name: 'Classic Caramel Cake',
+    name: 'Three Princesses Theme',
     description:
-      'Moist vanilla cake topped with rich melt-in-your-mouth caramel, decorated with vanilla shavings and finished with an elegant chocolate garnish.',
-    imageUrl: '/assets/images/cakes/7_inch_caramel.jpg',
+      'Half Slab Vanilla Cake with strawberry filling masked with butter cream icing and decorations.',
+    imageUrl: '/assets/images/cakes/kids_three_princess.jpg',
   },
   {
-    name: 'Mocca Cake',
+    name: 'Sponge Bob Theme',
     description:
-      'Layer of creamy vanilla sponge filled with coffee flavoured chocolate fudge icing, finished with vanilla and chocolate cookie crumbs.',
-    imageUrl: '/assets/images/cakes/7_inch_mocca.jpg',
+      'Half Slab Vanilla Double Layer Cake with chocolate cream filling masked with butter cream icing and decorations.',
+    imageUrl: '/assets/images/cakes/kids_spongeBob.jpg',
   },
 ];

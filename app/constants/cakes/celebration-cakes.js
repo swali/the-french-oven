@@ -1,50 +1,62 @@
 export default [
   {
-    name: 'Sprinkly Vanilla Cake',
+    name: 'Vanilla Half Slab Cake',
     description:
-      'Vanilla sponges filled with creamy vanilla icing, decorated with rosettes and sprinkled with chocolate chips. Also available in a chocolate flavour.',
-    imageUrl: '/assets/images/cakes/7-inch-sprinky-vanilla.jpg',
+      '1/2 slab sponge finished with non-dairy vanilla cream, then hand decorated with large trim.',
+    imageUrl: '/assets/images/cakes/celebration_vanilla_half_slab.jpg',
   },
   {
-    name: 'Double Chocolate Cake',
+    name: 'Chocolate Half Slab Cake',
     description:
-      'Chocolate sponges filled with creamy chocolate icing, decorated with rosettes and sprinkled with chocolate cookie crunch.',
-    imageUrl: '/assets/images/cakes/7-inch-double-chocoloate.jpg',
+      '1/2 slab sponge finished with non-dairy chocolate cream, then hand decorated with large trim.',
+    imageUrl: '/assets/images/cakes/celebration_chocolate_half_slab.jpg',
   },
   {
-    name: 'Black Forest Cake',
+    name: 'Vanilla Confetti Cake',
     description:
-      'Two chocolate sponges with a cherry pastry filling, finished with non-dairy whipped topping and decorated with rosettes, candied cherries and chocolate shavings.',
-    imageUrl: '/assets/images/cakes/7_inch_black_forest.jpg',
+      '10" x 17" cake finished with creamy icing and decorated with top and bottom trim, candied confetti, hand decorated with ballons and "Happy Birthday" pop-top.',
+    imageUrl: '/assets/images/cakes/celebration_confetti_vanilla.jpg',
   },
   {
-    name: 'Celebration Cake',
+    name: 'Chocolate Confetti Cake',
     description:
-      'Chocolate cake baked with colorful sugar confetti, frosted with our signature colorful balloons. Also available in a vanilla flavour.',
-    imageUrl: '/assets/images/cakes/7-inch-celebration-chocoloate.jpg',
+      '10” x 7” sheet cake finished with creamy icing and decorated with top and bottom trim (pink or blue), 4 rosettes, candied confetti, and “Happy Birthday” pop-top.',
+    imageUrl: '/assets/images/cakes/celebration_confetti_chocolate.jpg',
   },
   {
-    name: 'Carrot Cake',
+    name: 'All Occasion Chocolate Cake',
     description:
-      'Two rounds of carrot cake filled with cream cheese icing, finished with traditional cream cheese icing and decorated with icing carrots.',
-    imageUrl: '/assets/images/cakes/7-inch-carrot.jpg',
+      'Quarter slab cake split in half and filled with chocolate icing. Surrounded by chocolate icing with a sugar rose and rosebuds. Also available in vanilla with pink, blue, yellow or purple trims.',
+    imageUrl: '/assets/images/cakes/celebration_all_occasion_chocolate.jpg',
   },
   {
-    name: 'Chocolate Fudge Cake',
+    name: 'Black Forest Half Slab Cake',
     description:
-      'Two chocolate sponges filled and finished with creamy chocolate fudge icing, topped with a chocolate rosette.',
-    imageUrl: '/assets/images/cakes/7_inch_chocolate_fudge.jpg',
+      '1/2 slab chocolate sponge filled with cherry pastry filling. Surrounded by dairy whipped topping and decorated with rosettes, candied cherries, chocolate cookie crunch and chocolate shavings.',
+    imageUrl: '/assets/images/cakes/celebration_black_forest_half_slab.jpg',
   },
   {
-    name: 'Classic Caramel Cake',
+    name: 'Cookies & Cream Half Slab Cake',
     description:
-      'Moist vanilla cake topped with rich melt-in-your-mouth caramel, decorated with vanilla shavings and finished with an elegant chocolate garnish.',
-    imageUrl: '/assets/images/cakes/7_inch_caramel.jpg',
+      '1/2 slab chocolate sponge filled with non-dairy whipped topping. Decorated with rosettes, Oreo cookies, and chocolate cookie crunch.',
+    imageUrl: '/assets/images/cakes/celebration_cookies_cream_half_slab.jpg',
   },
   {
-    name: 'Mocca Cake',
+    name: 'Vanilla Full Slab Cake',
     description:
-      'Layer of creamy vanilla sponge filled with coffee flavoured chocolate fudge icing, finished with vanilla and chocolate cookie crumbs.',
-    imageUrl: '/assets/images/cakes/7_inch_mocca.jpg',
+      'Full slab sponge enrobed with vanilla cream then hand decorated with trim and choice of design.',
+    imageUrl: '/assets/images/cakes/celebration_vanilla_full_slab.jpg',
+  },
+  {
+    name: 'Black Forest Quarter Slab Cake',
+    description:
+      '10” x 7” chocolate sponge filled with cherry pastry filling. Surrounded by non-dairy whipped topping and decorated with rosettes, candied cherries, chocolate cookie crunch and chocolate shavings.',
+    imageUrl: '/assets/images/cakes/celebration_black_forest_qrtr_slab.jpg',
+  },
+  {
+    name: 'Carrot Half Slab Cake',
+    description:
+      'Two layers of carrot cake filled with delicious cream cheese icing . Covered with cream cheese icing, biscrunch on the sides and hand decorated with trim and icing carrots.',
+    imageUrl: '/assets/images/cakes/celebration_carrot_half_slab.jpg',
   },
 ];

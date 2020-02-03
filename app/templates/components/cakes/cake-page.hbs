@@ -11,7 +11,9 @@
         <h3 class="cake-page__cake-name">{{cake.name}}</h3>
         <p class="cake-page__cake-description">{{cake.description}}</p>
       </div>
-      <img src={{cake.imageUrl}} class="cake-page__cake-image" alt="Image for {{cake.name}}">
+      <div class="cake-page__cake-image-container">
+        <img src={{cake.imageUrl}} class="cake-page__cake-image" alt="Image for {{cake.name}}">
+      </div>
     </li>
   {{/each}}
 </ul>
