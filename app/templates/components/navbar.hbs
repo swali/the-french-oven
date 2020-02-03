@@ -9,12 +9,12 @@
       <LinkTo @route="home" class="navbar__link">Home</LinkTo>
     </li>
     <li class="dropdown">
-      <span class="navbar__link">Cakes</span>
+      <span class="navbar__link {{if isCakesRoute "active"}}">Cakes</span>
       <ul class="dropdown__content">
-        <li class="dropdown__item"><LinkTo @route="everyday-cakes" class="dropdown__link">Everyday cakes</LinkTo></li>
-        <li class="dropdown__item"><LinkTo @route="celebration-cakes" class="dropdown__link">Celebration cakes</LinkTo></li>
-        <li class="dropdown__item"><LinkTo @route="kids-birthday-cakes" class="dropdown__link">Kids birthday cakes</LinkTo></li>
-        <li class="dropdown__item"><LinkTo @route="eggless-cakes" class="dropdown__link">Eggless cakes</LinkTo></li>
+        <li class="dropdown__item"><LinkTo @route="cakes.everyday-cakes" class="dropdown__link">Everyday cakes</LinkTo></li>
+        <li class="dropdown__item"><LinkTo @route="cakes.celebration-cakes" class="dropdown__link">Celebration cakes</LinkTo></li>
+        <li class="dropdown__item"><LinkTo @route="cakes.kids-birthday-cakes" class="dropdown__link">Kids birthday cakes</LinkTo></li>
+        <li class="dropdown__item"><LinkTo @route="cakes.eggless-cakes" class="dropdown__link">Eggless cakes</LinkTo></li>
       </ul>
     </li>
     <li>

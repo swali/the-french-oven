@@ -8,10 +8,12 @@ const Router = EmberRouter.extend({
 
 Router.map(function() {
   this.route('home', { path: '/' });
-  this.route('everyday-cakes');
-  this.route('celebration-cakes');
-  this.route('kids-birthday-cakes');
-  this.route('eggless-cakes');
+  this.route('cakes', function() {
+    this.route('everyday-cakes');
+    this.route('celebration-cakes');
+    this.route('kids-birthday-cakes');
+    this.route('eggless-cakes');
+  });
 });
 
 export default Router;
