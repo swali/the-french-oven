@@ -9,7 +9,10 @@
       <LinkTo @route="home" class="navbar__link">Home</LinkTo>
     </li>
     <li class="dropdown">
-      <span class="navbar__link {{if isCakesRoute "active"}}">Cakes</span>
+      <span class="navbar__link {{if isCakesRoute "active"}}">
+        Cakes
+        <img src="/assets/images/global/down-arrow.svg" alt="Down arrow" class="dropdown__down-arrow">
+      </span>
       <ul class="dropdown__content">
         <li class="dropdown__item"><LinkTo @route="cakes.everyday-cakes" class="dropdown__link">Everyday cakes</LinkTo></li>
         <li class="dropdown__item"><LinkTo @route="cakes.celebration-cakes" class="dropdown__link">Celebration cakes</LinkTo></li>

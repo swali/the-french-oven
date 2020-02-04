@@ -17,9 +17,10 @@
   }
 
   &__link {
-    padding: 20px 22px 0;
+    padding: 0 22px;
     height: 100%;
-    display: block;
+    display: flex;
+    align-items: center;
     text-decoration: none;
     color: #533019;
 
