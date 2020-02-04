@@ -1,13 +1,12 @@
-import Component from '@ember/component';
+import Component from '@glimmer/component';
 import { inject as service } from '@ember/service';
 import { computed } from '@ember/object';
 
-export default Component.extend({
-  tagName: '',
+export default class Navbar extends Component {
+  @service router;
 
-  router: service(),
-
-  isCakesRoute: computed('router.currentRouteName', function() {
-    return this.get('router.currentRouteName').startsWith('cakes');
-  }).readOnly(),
-});
+  @computed('router.currentRouteName')
+  get isCakesRoute() {
+    return this.router.currentRouteName.startsWith('cakes');
+  }
+}
