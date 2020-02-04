@@ -15,6 +15,8 @@ Router.map(function() {
     this.route('eggless-cakes');
   });
   this.route('seasonals-cakes');
+  this.route('about-us');
+  this.route('contact');
 });
 
 export default Router;
