@@ -1,18 +1,17 @@
 .cake-page {
   &__title {
-    font-family: 'Lato', sans-serif;
-    font-size: 22px;
+    font-family: 'lato', sans-serif;
+    font-size: 24px;
     font-weight: bold;
-    line-height: 1.33;
-    color: #533019;
+    color: #272625;
+    margin-top: 100px;
   }
 
   &__description {
     max-width: 77%;
     margin-bottom: 42px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'lato', sans-serif;
     font-size: 16px;
-    line-height: 1.5;
     color: #707071;
   }
 
@@ -38,18 +37,16 @@
   &__cake-text {
     flex: 1;
     padding-right: 28px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'lato', sans-serif;
     font-size: 14px;
-    line-height: 1.43;
     color: #707071;
   }
 
   &__cake-name {
     margin: 0 0 6px 0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'lato', sans-serif;
     font-size: 14px;
     font-weight: bold;
-    line-height: 1.71;
     color: #533019;
   }
 

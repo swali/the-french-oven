@@ -4,21 +4,21 @@
     height: 450px;
     margin-right: 80px;
     background-color: #f9f4ee;
+    margin-top: 108px;
   }
 
   &__right {
     width: 55%;
-    font-family: 'bebasneue', sans-serif;
+    font-family: 'lato', sans-serif;
     font-size: 16px;
-    line-height: 1.5;
     color: #707071;
+    margin-top: 108px;
   }
 
   &__title {
     margin-top: 0;
     font-size: 32px;
     font-weight: bold;
-    line-height: 1.33;
     color: #533019;
     margin-bottom: 6px;
   }
@@ -28,10 +28,9 @@
   }
 
   &__dt {
-    font-family: 'bebasneue', sans-serif;
+    font-family: 'lato', sans-serif;
     font-size: 14px;
     font-weight: bold;
-    line-height: 1.71;
     color: #533019;
     margin-top: 10px;
   }

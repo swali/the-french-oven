@@ -1,13 +1,15 @@
 .navbar {
-  position: sticky;
-  top: 0;
-  height: $nav-bar-height;
-  width: 100%;
-  line-height: 1.43;
-  font-family: 'Lato', sans-serif;
-  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.15);
-  background-color: #f9f4ee;
-  z-index: 2;
+    position: fixed;
+    top: 0;
+    height: $nav-bar-height;
+    width: 100%;
+    font-family: 'lato', sans-serif;
+    z-index: 2;
+    background: #fff;
+    -webkit-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+    box-shadow: 0px 1px 5px 2px rgba(173, 168, 173, 0.55);
 
   &__list {
     width: $app-width;
@@ -34,9 +36,8 @@
   }
 
   &__logo {
-    padding: 16px 0 0 0;
     margin-right: 168px;
-    width: 208px;
+    width: 240px;
 
     &.active {
       border-bottom: none;

@@ -1,3 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="13" height="9" viewBox="0 0 13 9">
-    <path fill="#FFF" fill-rule="evenodd" d="M1 8V1.5l5 4c.266.257.383.296.5.5.118-.204.235-.243.5-.5l5-4V8H1zm10-7L6.5 4.5 2 1h9zm2-.5V0H0v8.5c0 .278.23.5.5.5h12c.27 0 .5-.222.5-.5v-8z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="9px" viewBox="0 0 13 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Fill 182</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="homepage-slide-1" transform="translate(-150.000000, -432.000000)" fill="#272624">
+            <g id="Group-26" transform="translate(150.000000, 361.000000)">
+                <g id="Group-11" transform="translate(0.000000, 41.000000)">
+                    <path d="M1,38 L1,31.5 L6,35.5 C6.26580439,35.7567745 6.38330185,35.7955712 6.5,36 C6.61829676,35.7955712 6.73499491,35.7567745 7,35.5 L12,31.5 L12,38 L1,38 Z M11,31 L6.5,34.5 L2,31 L11,31 Z M13,30.5 L13,30.5 L13,30 L13,30 L13,30 L13,30 L12.5,30 L12.5,30 L12.5,30 L12.5,30 L0.5,30 L0.5,30 L0.5,30 L0.5,30 L0,30 L0,30 L0,30 L0,30 L0,30.5 L0,30.5 L0,30.5 L0,38.5 C0,38.7775782 0.229828103,39 0.5,39 L12.5,39 C12.7701719,39 13,38.7775782 13,38.5 L13,30.5 L13,30.5 L13,30.5 Z" id="Fill-182"></path>
+                </g>
+            </g>
+        </g>
+    </g>
 </svg>
