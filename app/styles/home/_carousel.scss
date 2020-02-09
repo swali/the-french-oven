@@ -17,7 +17,12 @@
   }
 
   &__active {
+    position: relative;
     opacity: 1;
     z-index: 1;
+  }
+
+  @media screen and (max-width: $mobile-max-width) {
+    height: initial;
   }
 }

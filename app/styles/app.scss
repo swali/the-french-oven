@@ -2,6 +2,7 @@
 @import "mixins/topless-box-shadow";
 
 // main css
+@import "global"; // global needs to be at the top for global sass vars
 @import "common";
 @import "home";
 @import "home/carousel";
@@ -12,7 +13,6 @@
 @import "contact";
 @import "cakes/cake-page";
 @import "links";
-@import "global";
 @import "navbar";
 @import "footer";
 @import "dropdown";
@@ -20,4 +20,9 @@
 .application__content {
   margin: 0px auto;
   width: $app-width;
+
+  @media screen and (max-width: $mobile-max-width) {
+    margin: 0;
+    width: initial;
+  }
 }

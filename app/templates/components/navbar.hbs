@@ -5,10 +5,10 @@
         <img src="/assets/images/global/logo-with-name.svg" alt="The French Oven" class="navbar__logo-image">
       </LinkTo>
     </li>
-    <li>
+    <li class="navbar__item">
       <LinkTo @route="home" class="navbar__link">Home</LinkTo>
     </li>
-    <li class="dropdown">
+    <li class="dropdown navbar__item">
       <span class="navbar__link {{if isCakesRoute "active"}}">
         Cakes
         <img src="/assets/images/global/down-arrow.svg" alt="Down arrow" class="dropdown__down-arrow">
@@ -20,13 +20,13 @@
         <li class="dropdown__item"><LinkTo @route="cakes.eggless-cakes" class="dropdown__link">Eggless cakes</LinkTo></li>
       </ul>
     </li>
-    <li>
+    <li class="navbar__item">
       <LinkTo @route="seasonals-cakes" class="navbar__link">Seasonals</LinkTo>
     </li>
-    <li>
+    <li class="navbar__item">
       <LinkTo @route="about-us" class="navbar__link">About Us</LinkTo>
     </li>
-    <li>
+    <li class="navbar__item">
       <LinkTo @route="contact" class="navbar__link">Contact</LinkTo>
     </li>
   </ul>

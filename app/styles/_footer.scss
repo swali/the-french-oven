@@ -11,6 +11,10 @@
   width: $app-width;
   margin: 24px auto;
 
+  @media screen and (max-width: $mobile-max-width) {
+    width: initial;
+  }
+
   &__logo-image {
     padding: 0 14px;
   }
