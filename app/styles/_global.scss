@@ -1,6 +1,17 @@
 $app-width: 951px;
 $nav-bar-height: 58px;
 
+@font-face {
+  font-family: "bebasneue";
+  src: url("css/BebasNeue-Bold.otf"), 
+  url("css/BebasNeue-Bold.ttf"),
+  url("css/BebasNeue-Book.otf"),
+  url("css/BebasNeue-Book.ttf"),
+  url("css/BebasNeue-Light.otf"),
+  url("css/BebasNeue-Light.ttf"), 
+  url("css/BebasNeue-Regular.ttf");
+}
+
 html {
   box-sizing: border-box;
 }
