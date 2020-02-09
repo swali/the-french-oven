@@ -18,10 +18,16 @@ export default [
     imageUrl: '/assets/images/cakes/seasonal_christmas_vanilla.jpg',
   },
   {
-    name: 'Easter Cake',
+    name: 'Easter Flower Cake',
     description:
       'Moist vanilla cake with fluffy frosting and easter themed colors and decorations.',
     imageUrl: '/assets/images/cakes/seasonal_vanilla_easter.jpg',
+  },
+  {
+    name: 'Easter Egg Cake',
+    description:
+      'Quarter slab cake split in half and filled with chocolate icing. Surrounded by chocolate icing with a sugar rose and rosebuds. Also available in vanilla with pink, blue, yellow or purple trims.',
+    imageUrl: '/assets/images/cakes/seasonal_vanilla_egg_easter.jpg',
   },
   {
     name: 'Halloween Cake',

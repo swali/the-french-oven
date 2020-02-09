@@ -1,27 +1,9 @@
 export default [
   {
-    name: 'Vanilla Half Slab Cake',
+    name: 'Vanilla Birthday Cake',
     description:
       '1/2 slab sponge finished with non-dairy vanilla cream, then hand decorated with large trim.',
-    imageUrl: '/assets/images/cakes/celebration_vanilla_half_slab.jpg',
-  },
-  {
-    name: 'Chocolate Half Slab Cake',
-    description:
-      '1/2 slab sponge finished with non-dairy chocolate cream, then hand decorated with large trim.',
-    imageUrl: '/assets/images/cakes/celebration_chocolate_half_slab.jpg',
-  },
-  {
-    name: 'Vanilla Confetti Cake',
-    description:
-      '10" x 17" cake finished with creamy icing and decorated with top and bottom trim, candied confetti, hand decorated with ballons and "Happy Birthday" pop-top.',
     imageUrl: '/assets/images/cakes/celebration_confetti_vanilla.jpg',
-  },
-  {
-    name: 'Chocolate Confetti Cake',
-    description:
-      '10” x 7” sheet cake finished with creamy icing and decorated with top and bottom trim (pink or blue), 4 rosettes, candied confetti, and “Happy Birthday” pop-top.',
-    imageUrl: '/assets/images/cakes/celebration_confetti_chocolate.jpg',
   },
   {
     name: 'All Occasion Chocolate Cake',
@@ -42,7 +24,7 @@ export default [
     imageUrl: '/assets/images/cakes/celebration_cookies_cream_half_slab.jpg',
   },
   {
-    name: 'Vanilla Full Slab Cake',
+    name: 'Vanilla Custom Cake',
     description:
       'Full slab sponge enrobed with vanilla cream then hand decorated with trim and choice of design.',
     imageUrl: '/assets/images/cakes/celebration_vanilla_full_slab.jpg',
