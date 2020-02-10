@@ -65,4 +65,44 @@
     max-width: 100%;
     max-height: 100%;
   }
+
+  @media screen and (max-width: $mobile-max-width) {
+    padding: 0 35px;
+    text-align: center;
+    
+    &__title {
+      margin-top: 70px;
+      font-size: 24px;
+    }
+
+    &__description {
+      max-width: initial;
+    }
+
+    &__cake-list {
+      flex-direction: column;
+      flex-wrap: initial;
+    }
+
+    &__cake {
+      width: initial;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 50px;
+      padding-bottom: 50px;
+      border-bottom: 1px solid #707071;
+
+      &:nth-child(odd) {
+        padding-right: 0;
+      }
+
+      &:nth-child(even) {
+        padding-left: 0;
+      }
+    }
+
+    &__cake-text {
+      padding-right: 0;
+    }
+  }
 }
