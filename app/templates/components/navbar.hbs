@@ -9,7 +9,7 @@
       <LinkTo @route="home" class="navbar__link">Home</LinkTo>
     </li>
     <li class="dropdown navbar__item">
-      <span class="navbar__link {{if isCakesRoute "active"}}">
+      <span class="navbar__link">
         Cakes
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"/></svg>
       </span>
@@ -29,5 +29,10 @@
     <li class="navbar__item">
       <LinkTo @route="contact" class="navbar__link">Contact</LinkTo>
     </li>
+  </ul>
+  <ul class="navbar__hamburger {{if this.isHamburgerOpen "navbar__hamburger--open"}}" onclick={{action (mut this.isHamburgerOpen) (not this.isHamburgerOpen)}}>
+    <li class="navbar__hamburger-line-1"></li>
+    <li class="navbar__hamburger-line-2"></li>
+    <li class="navbar__hamburger-line-3"></li>
   </ul>
 </nav>
