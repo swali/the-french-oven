@@ -25,7 +25,10 @@
     align-items: center;
     text-decoration: none;
     color: #707071;
-    
+
+    &:hover {
+      color: #ff0434;
+    }
   }
 
   &__logo-container {

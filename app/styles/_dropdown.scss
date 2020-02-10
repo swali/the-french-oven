@@ -35,8 +35,12 @@ Example usage:
     font-family: 'lato', sans-serif;
     font-size: 14px;
     font-weight: 500;
-    color: #533019;
+    color: #707071;
     text-decoration: none;
+
+    &:hover {
+      color: #ff0434;
+    }
   }
 
   &__down-arrow {

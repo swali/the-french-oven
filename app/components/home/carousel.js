@@ -16,12 +16,12 @@ export default class Carousel extends Component {
   }
 
   switchSlideDelayed() {
-    if (this.autoSwitchSlides) {
-      later(() => {
+    later(() => {
+      if (this.autoSwitchSlides) {
         this.switchSlide(this.activeSlide + 1);
         this.switchSlideDelayed();
-      }, MILLISECONDS_PER_SLIDE);
-    }
+      }
+    }, MILLISECONDS_PER_SLIDE);
   }
 
   switchSlide(number) {
