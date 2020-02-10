@@ -12,7 +12,7 @@
     box-shadow: 0px 1px 5px 2px rgba(173, 168, 173, 0.55);
 
   &__list {
-    width: $app-width;
+    width: calc(#{$app-width} - 75px);
     height: 100%;
     display: flex;
     margin: 0 auto;
@@ -37,7 +37,7 @@
     & > svg {
       fill: #707071;
       width: 14px;
-      margin-left: 4px;
+      margin-left: 6px;
       margin-top: 2px;
     }
   }
@@ -48,7 +48,8 @@
 
   &__logo {
     margin-right: 168px;
-    width: 240px;
+    width: 220px;
+    padding-left: 0;
 
     &.active {
       border-bottom: none;
