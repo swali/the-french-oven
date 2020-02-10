@@ -1,11 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="6" viewBox="0 0 12 6">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="6px" viewBox="0 0 12 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
     <defs>
-        <path id="a" d="M6.798 5.656C6.582 5.886 6.292 6 6 6a1.09 1.09 0 0 1-.798-.344L.02.116A.07.07 0 0 1 .07 0h11.86a.07.07 0 0 1 .052.117L6.798 5.656z"/>
+        <path d="M6.7975,5.6556 C6.5825,5.8856 6.2915,5.9996 5.9995,5.9996 C5.7085,5.9996 5.4175,5.8846 5.2025,5.6556 L0.0185,0.1166 C-0.0225,0.0716 0.0095,-0.0004 0.0705,-0.0004 L11.9295,-0.0004 C11.9905,-0.0004 12.0225,0.0716 11.9815,0.1166 L6.7975,5.6556 Z" id="path-1"></path>
     </defs>
-    <g fill="none" fill-rule="evenodd">
-        <mask id="b" fill="#fff">
-            <use xlink:href="#a"/>
-        </mask>
-        <path fill="#533019" d="M-24 33h61v-61h-61z" mask="url(#b)"/>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="homepage-slide-2" transform="translate(-586.000000, -27.000000)">
+            <g id="Group-29" transform="translate(120.000000, 15.000000)">
+                <g id="Group-4">
+                    <g id="Group-13">
+                        <g id="Group-5" transform="translate(343.000000, 4.000000)">
+                            <g id="Group-3" transform="translate(123.000000, 8.000000)">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <g id="Clip-2"></g>
+                                <polygon id="Fill-1" fill="#707071" mask="url(#mask-2)" points="-24 33 37 33 37 -28 -24 -28"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
     </g>
 </svg>

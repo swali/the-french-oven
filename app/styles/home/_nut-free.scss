@@ -3,16 +3,23 @@
   background-color: #f2f2f2;
 
   &__header {
-    margin-bottom: 12px;
-    font-family: 'lato', sans-serif;
+    // margin-bottom: 12px;
+    // font-family: 'lato', sans-serif;
+    // font-size: 24px;
+    // line-height: 1.25;
+    // color: #272624;
+    // margin-top: 0;
+    font-family: 'Thirsty-Rough-light', sans-serif;
     font-size: 24px;
-    line-height: 1.25;
-    color: #272624;
-    margin-top: 0;
+    color: #d6bd7d;
+    border-bottom: 2px solid #d6bd7d;
+    margin-top: 4px;
+    padding-bottom: 8px;
+    margin-bottom: 13px
   }
 
   &__description {
-    max-width: 372px;
+    max-width: 382px;
     padding: 50px 0;
   }
 
