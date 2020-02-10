@@ -28,7 +28,21 @@
 
     &:hover {
       color: #ff0434;
+
+      & > svg {
+        fill: #ff0434;
+      }
     }
+
+    & > svg {
+      fill: #707071;
+      width: 14px;
+      margin-left: 4px;
+      margin-top: 2px;
+    }
+    // & > svg:hover {
+    //   fill: #ff0434;
+    // }
   }
 
   &__logo-container {
