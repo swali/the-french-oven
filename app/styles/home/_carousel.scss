@@ -1,5 +1,5 @@
 .home-carousel {
-  height: 350px;
+  height: 460px;
   position: relative;
 
   &__slide {
@@ -8,16 +8,13 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url("/assets/images/home/sprinkles@2x.png");
-    background-size: 240px 175px;
-    background-repeat: no-repeat;
-    background-position: top right;
     opacity: 0;
     transition: opacity 1s ease-in-out;
   }
 
   &__active {
-    position: relative;
+    // TODO: only this position relative in mobile
+    // position: relative;
     opacity: 1;
     z-index: 1;
   }
