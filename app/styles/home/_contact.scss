@@ -70,7 +70,7 @@
     background-size: cover;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    // justify-content: center;
     align-items: center;
   }
 
@@ -80,7 +80,7 @@
     font-family: 'lato', sans-serif;
     font-size: 16px;
     font-weight: bold;
-    margin-top: 0;
+    margin-top: 25px;
   }
 
   // get in touch subsection
@@ -99,8 +99,12 @@
     color: #272624;
   }
 
-  &__our-location-header {
-    margin-bottom: 54px;
+  &__get-in-touch-header,
+  &__our-location-header,
+  &__sqf-header {
+    font-family: 'lato', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
   }
 
   &__address {
@@ -108,6 +112,7 @@
     font-size: 14px;
     text-align: center;
     font-style: normal;
+    padding-top: 34px;
   }
 
   &__address2 {
@@ -139,7 +144,6 @@
   }
   &__info {
     display: block;
-    margin-top: 4px;
     color: #272624;
     font-family: 'Lato-Regular';
     text-transform: uppercase;
