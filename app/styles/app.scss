@@ -23,7 +23,7 @@
   width: $app-width;
 
   @media screen and (max-width: $mobile-max-width) {
-    margin: $nav-bar-height-mobile 0;
+    margin: $nav-bar-height-mobile 0 0 0;
     width: initial;
   }
 }
