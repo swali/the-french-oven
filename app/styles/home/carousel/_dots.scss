@@ -1,0 +1,19 @@
+.home-carousel-dots {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  z-index: 2;
+
+  &__dot {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #474747;
+    margin-right: 8px;
+
+    &--active {
+      background-color: #ff0434;
+    }
+  }
+}

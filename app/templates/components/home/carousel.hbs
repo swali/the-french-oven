@@ -14,4 +14,9 @@
     @imageSrc="/assets/images/home/chocolate@2x.png"
     @altText="Cherry cake"
     @description="Try our unique seasonal flavours to sweeten any holiday." />
+  <Home::Carousel::Dots
+    @count="3"
+    @activeSlide={{this.activeSlide}}
+    @onDotClick={{this.onDotClick}}
+    />
 </section>

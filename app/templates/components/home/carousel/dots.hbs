@@ -1,0 +1,6 @@
+<ul class="home-carousel-dots">
+  {{#each slides as |slide index|}}
+    <li class="home-carousel-dots__dot {{if (eq index @activeSlide) "home-carousel-dots__dot--active"}}"
+      onclick={{action @onDotClick index}}></li>
+  {{/each}}
+</ul>
