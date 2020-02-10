@@ -13,13 +13,15 @@
   }
 
   &__active {
-    // TODO: only this position relative in mobile
-    // position: relative;
     opacity: 1;
     z-index: 1;
   }
 
   @media screen and (max-width: $mobile-max-width) {
     height: initial;
+
+    &__active {
+      position: relative;
+    }
   }
 }

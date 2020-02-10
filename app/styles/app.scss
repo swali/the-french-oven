@@ -19,11 +19,11 @@
 @import "dropdown";
 
 .application__content {
-  margin: 0px auto;
+  margin: 55px auto;
   width: $app-width;
 
   @media screen and (max-width: $mobile-max-width) {
-    margin: 0;
+    margin: $nav-bar-height-mobile 0;
     width: initial;
   }
 }

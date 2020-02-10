@@ -30,4 +30,15 @@
   &__no-peanut-image {
     margin-right: 22px;
   }
+
+  @media screen and (max-width: $mobile-max-width) {
+    &__images {
+      display: none;
+    }
+
+    &__description {
+      text-align: center;
+      padding: 30px;
+    }
+  }
 }

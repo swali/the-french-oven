@@ -70,7 +70,6 @@
     background-size: cover;
     display: flex;
     flex-direction: column;
-    // justify-content: center;
     align-items: center;
   }
 
@@ -145,7 +144,6 @@
   &__info {
     display: block;
     color: #272624;
-    font-family: 'Lato-Regular';
     text-transform: uppercase;
     font-size: 14px;
     &:before {
@@ -173,5 +171,15 @@
   @media screen and (max-width: $mobile-max-width) {
     height: initial;
     flex-direction: column;
+
+    &__get-in-touch,
+    &__our-location,
+    &__sqf {
+      padding: 20px 0 30px;
+    }
+
+    &__address {
+      padding-top: 54px;
+    }
   }
 }

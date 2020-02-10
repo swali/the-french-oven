@@ -11,11 +11,42 @@
   width: $app-width;
   margin: 24px auto;
 
-  @media screen and (max-width: $mobile-max-width) {
-    width: initial;
+  &__list {
+    display: flex;
+    margin-bottom: 0;
+  }
+
+  &__item {
+    margin: 0 4px;
+
+    @media screen and (min-width: $mobile-max-width) {
+      &:not(:last-child)::after {
+        content: "|";
+        margin-left: 8px;
+      }
+    }
   }
 
   &__logo-image {
     padding: 0 14px;
+  }
+
+  @media screen and (max-width: $mobile-max-width) {
+    width: initial;
+    height: initial;
+    padding: 20px;
+    margin: 0;
+
+    &__list {
+      flex-direction: column;
+    }
+
+    &__item {
+      margin: 4px;
+    }
+
+    &__logo-image {
+      display: none;
+    }
   }
 }
