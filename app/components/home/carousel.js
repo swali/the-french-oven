@@ -59,7 +59,6 @@ export default class Carousel extends Component {
     this.activeSlide = number % NUMBER_OF_SLIDES;
   }
 
-  // TODO: figure out why this @action is required here
   @action
   onDotClick(number) {
     this.switchSlide(number);

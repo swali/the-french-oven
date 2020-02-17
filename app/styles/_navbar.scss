@@ -40,14 +40,6 @@
     margin-right: 18px;
   }
 
-  #navbar__cakes-item:hover &__down-arrow {
-    fill: #ff0434;
-  }
-
-  #navbar__cakes-item:hover &__cakes-link {
-    color: #ff0434;
-  }
-
   &__down-arrow {
     fill: #707071;
     width: 14px;
@@ -111,6 +103,16 @@
     display: none;
   }
 
+  @media screen and (min-width: $mobile-max-width) {
+    .navbar__cakes-item:hover &__down-arrow {
+      fill: #ff0434;
+    }
+
+    .navbar__cakes-item:hover &__cakes-link {
+      color: #ff0434;
+    }
+  }
+
   @media screen and (max-width: $mobile-max-width) {
     height: $nav-bar-height-mobile;
 
@@ -162,12 +164,48 @@
         }
 
         &__item {
-          border-bottom: 1px solid black;
+          border-bottom: 1px solid rgba(0, 0, 0, 0.15);
           background-color: #f2f2f2;
         }
 
         &__link {
           padding: 20px 22px;
+        }
+
+        &__cakes-item {
+          border-bottom: 0;
+        }
+
+        &__cakes-link {
+          height: initial;
+        }
+
+        &__down-arrow-wrapper {
+          display: none;
+        }
+      }
+
+      .dropdown {
+        &__content {
+          display: block;
+          position: relative;
+          width: initial;
+          left: initial;
+          box-shadow: none;
+          background-color: transparent;
+          padding: 0;
+          border-top: 1px solid rgba(0, 0, 0, 0.15);
+        }
+
+        &__link {
+          padding: 20px 40px;
+          display: inline-block;
+        }
+
+        &__item {
+          border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+          padding: 0;
+          background-color: white;
         }
       }
     }

@@ -6,7 +6,7 @@ export default class Navbar extends Component {
 
   @action
   onCakesBlur(e) {
-    this.cakesItem = this.cakesItem || document.getElementById('navbar__cakes-item');
+    this.cakesItem = this.cakesItem || document.querySelector('.navbar__cakes-item');
 
     if (!this.cakesItem.contains(e.relatedTarget)) {
       set(this, 'showCakesDropdown', false);
