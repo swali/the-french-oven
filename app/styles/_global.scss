@@ -1,5 +1,5 @@
-$app-width: 1018px;
-$mobile-max-width: 500px;
+$app-width: 948px;
+$mobile-max-width: 800px;
 $nav-bar-height: 58px;
 $nav-bar-height-mobile: 38px;
 
@@ -24,15 +24,15 @@ ul {
   margin-block-start: 0;
 }
 
-@font-face { 
-  font-family: Thirsty-Rough-bold; 
+@font-face {
+  font-family: Thirsty-Rough-bold;
   src: url(fonts/ThirstyRoughBold.otf);
 }
-@font-face { 
-  font-family: Thirsty-Rough-light; 
+@font-face {
+  font-family: Thirsty-Rough-light;
   src: url(fonts/ThirstyRoughLight.otf);
 }
-@font-face { 
-  font-family: Thirsty-Rough; 
+@font-face {
+  font-family: Thirsty-Rough;
   src: url(fonts/ThirstyRoughRegular.otf);
 }

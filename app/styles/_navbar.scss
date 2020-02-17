@@ -10,7 +10,7 @@
     border-bottom: 3px solid #e9d29b;
 
   &__list {
-    width: calc(#{$app-width} - 75px);
+    max-width: $app-width;
     height: 100%;
     display: flex;
     margin: 0 auto;
@@ -50,7 +50,6 @@
   }
 
   &__logo {
-    margin-right: 168px;
     width: 220px;
     padding-left: 0;
 
@@ -101,6 +100,12 @@
 
   &__hamburger--open &__hamburger-line-3 {
     display: none;
+  }
+
+  @media screen and (max-width: 948px) and (min-width: $mobile-max-width) {
+    &__list {
+      margin: 0 15px 0 37px;
+    }
   }
 
   @media screen and (min-width: $mobile-max-width) {
