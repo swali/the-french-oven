@@ -20,12 +20,16 @@
       class="dropdown navbar__item">
       <LinkTo
         @route="cakes"
-        {{on "focus" (action (mut this.showCakesDropdown) true)}}
+        onclick={{action (mut this.showCakesDropdown) false}}
         {{on "blur" this.onCakesBlur}}
-        class="navbar__link">
+        class="navbar__link navbar__cakes-link">
         Cakes
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"/></svg>
       </LinkTo>
+      <button
+        onclick={{action (mut this.showCakesDropdown) (not this.showCakesDropdown)}}
+        class="navbar__down-arrow-wrapper">
+        <svg class="navbar__down-arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"/></svg>
+      </button>
       <ul
         {{!-- template-lint-disable  --}}
         onclick={{action (mut this.showCakesDropdown) false}}

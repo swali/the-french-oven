@@ -19,25 +19,38 @@
   &__link {
     padding: 0 22px;
     height: 100%;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     text-decoration: none;
     color: #707071;
 
     &:hover {
       color: #ff0434;
-
-      & > svg {
-        fill: #ff0434;
-      }
     }
+  }
 
-    & > svg {
-      fill: #707071;
-      width: 14px;
-      margin-left: 6px;
-      margin-top: 2px;
-    }
+  &__cakes-link {
+    padding-right: 0;
+  }
+
+  &__down-arrow-wrapper {
+    border: 0;
+    transform: translateY(7px);
+    padding: 4px 4px 4px 3px;
+    margin-right: 18px;
+  }
+
+  #navbar__cakes-item:hover &__down-arrow {
+    fill: #ff0434;
+  }
+
+  #navbar__cakes-item:hover &__cakes-link {
+    color: #ff0434;
+  }
+
+  &__down-arrow {
+    fill: #707071;
+    width: 14px;
   }
 
   &__logo-container {
