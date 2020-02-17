@@ -37,7 +37,7 @@ Example usage:
     font-weight: 500;
     color: #707071;
     text-decoration: none;
-
+    transition: all 0.3s;
     &:hover {
       color: #ff0434;
     }

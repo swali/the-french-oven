@@ -23,6 +23,7 @@
     align-items: center;
     text-decoration: none;
     color: #707071;
+    transition: all 0.3s;
 
     &:hover {
       color: #ff0434;
@@ -43,6 +44,7 @@
   &__down-arrow {
     fill: #707071;
     width: 14px;
+    transition: all 0.3s;
   }
 
   &__logo-container {
