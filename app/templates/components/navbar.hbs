@@ -12,16 +12,28 @@
     <li class="navbar__item">
       <LinkTo @route="home" class="navbar__link">Home</LinkTo>
     </li>
-    <li class="dropdown navbar__item">
-      <span class="navbar__link">
+    <li
+      {{!-- template-lint-disable  --}}
+      id="navbar__cakes-item"
+      {{on "mouseenter" (action (mut this.showCakesDropdown) true)}}
+      {{on "mouseleave" (action (mut this.showCakesDropdown) false)}}
+      class="dropdown navbar__item">
+      <LinkTo
+        @route="cakes"
+        {{on "focus" (action (mut this.showCakesDropdown) true)}}
+        {{on "blur" this.onCakesBlur}}
+        class="navbar__link">
         Cakes
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"/></svg>
-      </span>
-      <ul class="dropdown__content">
-        <li class="dropdown__item"><LinkTo @route="cakes.everyday-cakes" class="dropdown__link">Everyday cakes</LinkTo></li>
-        <li class="dropdown__item"><LinkTo @route="cakes.celebration-cakes" class="dropdown__link">Celebration cakes</LinkTo></li>
-        <li class="dropdown__item"><LinkTo @route="cakes.kids-birthday-cakes" class="dropdown__link">Kids birthday cakes</LinkTo></li>
-        <li class="dropdown__item"><LinkTo @route="cakes.eggless-cakes" class="dropdown__link">Eggless cakes</LinkTo></li>
+      </LinkTo>
+      <ul
+        {{!-- template-lint-disable  --}}
+        onclick={{action (mut this.showCakesDropdown) false}}
+        class="dropdown__content {{if showCakesDropdown "dropdown__content--show"}}">
+        <li class="dropdown__item"><LinkTo {{on "blur" this.onCakesBlur}} @route="cakes.everyday-cakes" class="dropdown__link">Everyday cakes</LinkTo></li>
+        <li class="dropdown__item"><LinkTo {{on "blur" this.onCakesBlur}} @route="cakes.celebration-cakes" class="dropdown__link">Celebration cakes</LinkTo></li>
+        <li class="dropdown__item"><LinkTo {{on "blur" this.onCakesBlur}} @route="cakes.kids-birthday-cakes" class="dropdown__link">Kids birthday cakes</LinkTo></li>
+        <li class="dropdown__item"><LinkTo {{on "blur" this.onCakesBlur}} @route="cakes.eggless-cakes" class="dropdown__link">Eggless cakes</LinkTo></li>
       </ul>
     </li>
     <li class="navbar__item">

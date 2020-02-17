@@ -21,10 +21,10 @@ Example usage:
     box-shadow: 0 6px 9px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.1);
     background-color: white;
     display: none;
-  }
 
-  &:hover &__content {
-    display: inherit;
+    &--show {
+      display: inherit;
+    }
   }
 
   &__item {
