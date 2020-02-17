@@ -4,15 +4,13 @@ import { later } from '@ember/runloop';
 import { action, set } from '@ember/object';
 import CarouselCakes from 'the-french-oven/constants/home/carousel-cakes';
 
-const NUMBER_OF_SLIDES = 3;
 const MILLISECONDS_PER_SLIDE = 5000;
 
 export default class Carousel extends Component {
   @tracked activeSlide = 0;
   autoSwitchSlides = true;
-
+  firstImageLoaded = false;
   cakes = null;
-  initialLoadTime;
 
   constructor() {
     super(...arguments);
@@ -23,15 +21,12 @@ export default class Carousel extends Component {
    * Only set the src for the first image. The remaining images will be lazy loaded.
    */
   initCakes() {
-    this.initialLoadTime = Date.now();
     this.cakes = CarouselCakes.map((cake) => ({
       name: cake.name,
       imageUrl: '',
     }));
 
     this.cakes[0].imageUrl = CarouselCakes[0].imageUrl;
-
-    window.addEventListener('load', this.loadRemainingImages.bind(this));
   }
 
   /**
@@ -56,12 +51,20 @@ export default class Carousel extends Component {
   }
 
   switchSlide(number) {
-    this.activeSlide = number % NUMBER_OF_SLIDES;
+    this.activeSlide = number % CarouselCakes.length;
   }
 
   @action
   onDotClick(number) {
     this.switchSlide(number);
     this.autoSwitchSlides = false;
+  }
+
+  @action
+  onSlideImageLoad() {
+    if (!this.firstImageLoaded) {
+      this.loadRemainingImages();
+      this.firstImageLoaded = true;
+    }
   }
 }

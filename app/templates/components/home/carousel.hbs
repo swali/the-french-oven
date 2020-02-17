@@ -3,11 +3,13 @@
   {{#each cakes as |cake index|}}
     <Home::Carousel::Slide
       class="home-carousel__slide {{if (eq this.activeSlide index) "home-carousel__active"}}"
+      @onImageLoad={{this.onSlideImageLoad}}
       @imageSrc={{cake.imageUrl}}
       @altText={{cake.name}} />
   {{/each}}
 
   <Home::Carousel::Dots
+    @count={{cakes.length}}
     @activeSlide={{this.activeSlide}}
     @onDotClick={{this.onDotClick}} />
 </section>

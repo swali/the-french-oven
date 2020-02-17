@@ -1,3 +1,7 @@
 <div class="home-carousel-slide flex">
-  <img class="home-carousel-slide__image" src={{@imageSrc}} alt={{@altText}}>
+  <img
+    class="home-carousel-slide__image"
+    {{on "load" @onImageLoad}}
+    src={{@imageSrc}}
+    alt={{@altText}}>
 </div>
