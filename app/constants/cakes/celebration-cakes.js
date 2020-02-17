@@ -6,6 +6,12 @@ export default [
     imageUrl: '/assets/images/cakes/celebration_confetti_vanilla.jpg',
   },
   {
+    name: 'Chocolate Birthday Cake',
+    description:
+      '1/2 slab sponge finished with non-dairy chocolate cream, then hand decorated with large trim.',
+    imageUrl: '/assets/images/cakes/celebration_confetti_chocolate.jpg',
+  },
+  {
     name: 'All Occasion Chocolate Cake',
     description:
       'Quarter slab cake split in half and filled with chocolate icing. Surrounded by chocolate icing with a sugar rose and rosebuds. Also available in vanilla with pink, blue, yellow or purple trims.',

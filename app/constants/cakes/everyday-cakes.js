@@ -26,7 +26,7 @@ export default [
   {
     name: 'Carrot Cake',
     description:
-      'Two rounds of carrot cake filled with cream cheese icing, finished with traditional cream cheese icing and decorated with icing carrots.',
+      'Two rounds of carrot cake filled with cream cheese icing, finished with cream cheese icing and decorated with icing carrots.',
     imageUrl: '/assets/images/cakes/7-inch-carrot.jpg',
   },
   {
@@ -46,5 +46,29 @@ export default [
     description:
       'Two layers of chocolate cake with moist frosting surrounded with delicous whipped topping and decorated with crunchy Kit Kat bars.',
     imageUrl: '/assets/images/cakes/7_inch_kitkat.jpg',
+  },
+  {
+    name: 'Kit Kat With Fudge Cake',
+    description:
+      'Two layers of chocolate cake with a fudge filling, decorated with lots of Kit Kat pieces.',
+    imageUrl: '/assets/images/cakes/7-inch-kitkatfudge.jpg',
+  },
+  {
+    name: 'Kit Kat With Caramel Cake',
+    description:
+      'Two layers of chocolate cake with a chocolate and caramel filling, decorated with Kit Kat pieces and a caramel drizzle.',
+    imageUrl: '/assets/images/cakes/7_inch_kitkatcaramel.jpg',
+  },
+  {
+    name: 'Cookies and Cream Cake',
+    description:
+      'Two layers of chocolate cake filled with chocolate cookie crumbs, decorated with cookie crunch and two oreo cookies.',
+    imageUrl: '/assets/images/cakes/7_inch_cookie_cream.jpg',
+  },
+  {
+    name: 'Cinnamon Coffee Cake',
+    description:
+      'Buttery coffee cake filled with cinnamon sugar and topped with a delicious butter cinnamon crumble.',
+    imageUrl: '/assets/images/cakes/7_inch_coffee.jpg',
   },
 ];
