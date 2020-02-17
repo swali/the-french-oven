@@ -2,7 +2,7 @@ export default [
   {
     name: 'Sprinkly Vanilla Cake',
     description:
-      'Vanilla sponges filled with creamy vanilla icing, decorated with rosettes and sprinkled with chocolate chips. Also available in chocolate.',
+      'Vanilla sponges filled with creamy vanilla icing, decorated with rosettes and sprinkled with chocolate chips.',
     imageUrl: '/assets/images/cakes/7-inch-sprinky-vanilla.jpg',
   },
   {
@@ -70,5 +70,11 @@ export default [
     description:
       'Buttery coffee cake filled with cinnamon sugar and topped with a delicious butter cinnamon crumble.',
     imageUrl: '/assets/images/cakes/7_inch_coffee.jpg',
+  },
+  {
+    name: 'Mocca Cake',
+    description:
+      'Two layer moist chocolate cake with a coffee infused cream and mocha icing. This mocha cake is for true coffee lovers!',
+    imageUrl: '/assets/images/cakes/7_inch_mocha.jpg',
   },
 ];
