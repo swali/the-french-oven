@@ -17,7 +17,7 @@
     z-index: 1;
   }
 
-  @media screen and (max-width: $mobile-max-width) {
+  @media screen and (max-width: 948px) {
     height: initial;
 
     &__active {

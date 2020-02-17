@@ -176,6 +176,9 @@
     &__our-location,
     &__sqf {
       padding: 20px 0 30px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
     }
 
     &__address {
@@ -184,6 +187,14 @@
 
     &__our-location {
       background: #f3f0e2;
+    }
+
+    &__get-in-touch {
+      background-color: #f9e2db;
+    }
+
+    &__sqf {
+      background-color: #e1e9ee;
     }
   }
 }
