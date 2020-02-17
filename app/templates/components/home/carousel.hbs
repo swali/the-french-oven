@@ -1,19 +1,12 @@
 <section class="home-carousel">
-  <Home::Carousel::Slide
-    class="home-carousel__slide {{if (eq this.activeSlide 0) "home-carousel__active"}}"
-    @imageSrc="/assets/images/home/slide1.jpg"
-    @altText="Black Forest cake"
-    @description="Treat yourself to our Black Forest cake." />
-  <Home::Carousel::Slide
-    class="home-carousel__slide {{if (eq this.activeSlide 1) "home-carousel__active"}}"
-    @imageSrc="/assets/images/home/slide2.jpg"
-    @altText="Confetti cake"
-    @description="Kids love our fun birthday cakes." />
-  <Home::Carousel::Slide
-    class="home-carousel__slide {{if (eq this.activeSlide 2) "home-carousel__active"}}"
-    @imageSrc="/assets/images/home/slide3.jpg"
-    @altText="Cherry cake"
-    @description="Try our unique seasonal flavours." />
+
+  {{#each cakes as |cake index|}}
+    <Home::Carousel::Slide
+      class="home-carousel__slide {{if (eq this.activeSlide index) "home-carousel__active"}}"
+      @imageSrc={{cake.imageUrl}}
+      @altText={{cake.name}} />
+  {{/each}}
+
   <Home::Carousel::Dots
     @count="3"
     @activeSlide={{this.activeSlide}}
