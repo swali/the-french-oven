@@ -167,7 +167,7 @@
         &__logo-container {
           flex: initial;
           height: $nav-bar-height-mobile;
-          background-color: #f2f2f2;
+          background-color: white;
           border-bottom: 3px solid #e9d29b;
           position: fixed;
           width: 100%;
@@ -184,6 +184,7 @@
 
         &__link {
           padding: 20px 22px;
+          display: flex;
         }
 
         &__cakes-item {
@@ -213,7 +214,7 @@
 
         &__link {
           padding: 20px 40px;
-          display: inline-block;
+          display: block;
         }
 
         &__item {

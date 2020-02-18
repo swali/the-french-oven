@@ -1,7 +1,8 @@
-<div class="home-carousel-slide flex">
+<div ...attributes class="home-carousel-slide flex {{if this.isLoading "home-carousel-slide--image-not-loaded"}}">
+  <Loader @hide={{not this.isLoading}} />
   <img
-    class="home-carousel-slide__image"
-    {{on "load" @onImageLoad}}
+    class="home-carousel-slide__image {{if this.isLoading "home-carousel-slide__image--not-loaded"}}"
+    {{on "load" this.onImageLoaded}}
     src={{@imageSrc}}
     alt={{@altText}}>
 </div>

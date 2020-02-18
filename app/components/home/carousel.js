@@ -9,7 +9,7 @@ const MILLISECONDS_PER_SLIDE = 5000;
 export default class Carousel extends Component {
   @tracked activeSlide = 0;
   autoSwitchSlides = true;
-  firstImageLoaded = false;
+  @tracked firstImageLoaded = false;
   cakes = null;
 
   constructor() {

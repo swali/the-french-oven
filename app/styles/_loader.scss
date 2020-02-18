@@ -1,0 +1,44 @@
+// from https://codepen.io/jonmilner/pen/hDHuo
+
+/* Animation */
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Variables */
+$loader-size: 100px;
+
+/* Loading Icon */
+.loader {
+  width: $loader-size;
+  height: $loader-size;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  &__ring {
+    position: absolute;
+    width: $loader-size;
+    height: $loader-size;
+
+    &:first-child {
+      transform: skew(30deg,20deg);
+    }
+
+    &:last-child {
+      transform: skew(-30deg,-20deg) scale(-1, 1);
+
+      svg {
+        animation-delay: -0.5s;
+      }
+    }
+
+    svg {
+      animation: rotate 1s linear infinite;
+      fill: rgba(0, 0, 0, 0.2);
+    }
+  }
+}
