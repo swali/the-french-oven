@@ -33,6 +33,10 @@
     flex-direction: column;
     align-items: center;
 
+    &--first-image-not-loaded {
+      min-height: 200px;
+    }
+
     &__image {
       width: initial;
       max-height: initial;

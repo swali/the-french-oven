@@ -5,7 +5,8 @@
       class="home-carousel__slide {{if (eq this.activeSlide index) "home-carousel__slide--active"}}"
       @onImageLoad={{this.onSlideImageLoad}}
       @imageSrc={{cake.imageUrl}}
-      @altText={{cake.name}} />
+      @altText={{cake.name}}
+      @firstImageLoaded={{this.firstImageLoaded}} />
   {{/each}}
 
   <Home::Carousel::Dots

@@ -1,4 +1,4 @@
-<div ...attributes class="home-carousel-slide flex {{if this.isLoading "home-carousel-slide--image-not-loaded"}}">
+<div ...attributes class="home-carousel-slide flex {{if this.isLoading "home-carousel-slide--image-not-loaded"}} {{unless @firstImageLoaded "home-carousel-slide--first-image-not-loaded"}}">
   <Loader @tagName="" @hide={{not this.isLoading}} />
   <img
     class="home-carousel-slide__image {{if this.isLoading "home-carousel-slide__image--not-loaded"}}"
