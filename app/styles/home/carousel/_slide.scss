@@ -33,8 +33,9 @@
     flex-direction: column;
     align-items: center;
 
-    &--first-image-not-loaded {
-      min-height: 200px;
+    &--image-not-loaded {
+      // .483 is the ratio of height to width for our carousel images
+      min-height: 48.3vw;
     }
 
     &__image {
