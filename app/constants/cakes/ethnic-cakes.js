@@ -9,7 +9,7 @@ export default [
     name: 'Gajar Halwa Cake',
     description:
       'Two layers of vanilla cake with vanilla crème and gajar halwa filling decorated with gajar halwa on top and finished with toasted cake crumbs on side of cake.',
-    imageUrl: '/assets/images/cakes/7_inch_strawberry.jpg',
+    imageUrl: '/assets/images/cakes/gajar-halwa.jpg',
   },
   {
     name: 'Mango Pandan Cake',
@@ -21,6 +21,6 @@ export default [
     name: 'Ube Cake',
     description:
       ' Layers of vanilla cake with ube flavored vanilla crème and pineapple filling decorated with purple coloured icing.',
-    imageUrl: '/assets/images/cakes/8_inch_chocolate.jpg',
+    imageUrl: '/assets/images/cakes/ube.jpg',
   },
 ];

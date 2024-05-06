@@ -39,13 +39,13 @@ export default [
     name: 'Caramel Cake',
     description:
       'Two layers of vanilla sponge with chocolate crème filling finished with a layer of caramel filling on the top and side decorated with chocolate curls on the side and chocolate drizzle on top.',
-    imageUrl: '/assets/images/cakes/7_inch_mocha.jpg',
+    imageUrl: '/assets/images/cakes/caramel.jpg',
   },
   {
     name: 'Lemon Cake',
     description:
       'Two layers of vanilla cake with lemon crème filling finished with a layer of lemon filling on the top and side decorated with chocolate curls on side and chocolate drizzle on top.',
-    imageUrl: '/assets/images/cakes/7_inch_mocha.jpg',
+    imageUrl: '/assets/images/cakes/lemon.jpg',
   },
   {
     name: 'Double Chocolate Cake',
@@ -57,12 +57,12 @@ export default [
     name: 'Pineapple Coconut Cake',
     description:
       'Two layers of vanilla cake with pineapple crème and coconut filling decorated with pineapple filling on top and side of cake finished with shredded coconut on side of cake and a drizzle of chocolate on top.',
-    imageUrl: '/assets/images/cakes/7_inch_mocha.jpg',
+    imageUrl: '/assets/images/cakes/pineapple-coconut.jpg',
   },
   {
     name: 'Strawberry Cake',
     description:
       'Two layers of vanilla cake with strawberry crème filling decorated with a layer of strawberry filling on top and side, finished with chocolate curls on side.',
-    imageUrl: '/assets/images/cakes/7_inch_mocha.jpg',
+    imageUrl: '/assets/images/cakes/strawberry.jpg',
   },
 ];

@@ -21,7 +21,7 @@ export default [
     name: 'Mango Cake',
     description:
       'Two layers of vanilla cake with mango crème filling decorated with a layer of mago filling on top and side of cake finished with chocoloate curls on side and chocolate drizzle on top of cake.',
-    imageUrl: '/assets/images/cakes/eggless_black_forest_qrtr_slab.jpg',
+    imageUrl: '/assets/images/cakes/mango.jpg',
   },
   {
     name: 'Sprinkle Vanilla Cake',
