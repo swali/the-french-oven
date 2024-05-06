@@ -1,27 +1,9 @@
 export default [
   {
-    name: 'Sprinkly Vanilla Cake',
-    description:
-      'Vanilla sponges filled with creamy vanilla icing, decorated with rosettes and sprinkled with chocolate chips.',
-    imageUrl: '/assets/images/cakes/7-inch-sprinky-vanilla.jpg',
-  },
-  {
-    name: 'Double Chocolate Cake',
-    description:
-      'Chocolate sponges filled with creamy chocolate icing, decorated with rosettes and sprinkled with chocolate cookie crunch.',
-    imageUrl: '/assets/images/cakes/7-inch-double-chocoloate.jpg',
-  },
-  {
     name: 'Black Forest Cake',
     description:
       'Two chocolate sponges with a cherry pastry filling, finished with non-dairy whipped topping and decorated with rosettes, candied cherries and chocolate shavings.',
     imageUrl: '/assets/images/cakes/7_inch_black_forest.jpg',
-  },
-  {
-    name: 'Celebration Cake',
-    description:
-      'Chocolate cake baked with colorful sugar confetti, frosted with our signature colorful balloons. Also available in vanilla.',
-    imageUrl: '/assets/images/cakes/7-inch-celebration-chocoloate.jpg',
   },
   {
     name: 'Carrot Cake',
@@ -30,22 +12,10 @@ export default [
     imageUrl: '/assets/images/cakes/7-inch-carrot.jpg',
   },
   {
-    name: 'Chocolate Fudge Cake',
-    description:
-      'Two chocolate sponges filled and finished with creamy chocolate fudge icing, topped with a chocolate rosette.',
-    imageUrl: '/assets/images/cakes/7_inch_chocolate_fudge.jpg',
-  },
-  {
     name: 'Chocolate Caramel Cake',
     description:
       'Moist chocolate cake with rich melt-in-your-mouth caramel, decorated with chocolate shavings and finished with an elegant chocolate garnish.',
     imageUrl: '/assets/images/cakes/7_inch_caramel.jpg',
-  },
-  {
-    name: 'Kit Kat Cake',
-    description:
-      'Two layers of chocolate cake with moist frosting surrounded with delicous whipped topping and decorated with crunchy Kit Kat bars.',
-    imageUrl: '/assets/images/cakes/7_inch_kitkat.jpg',
   },
   {
     name: 'Kit Kat With Fudge Cake',
@@ -54,27 +24,45 @@ export default [
     imageUrl: '/assets/images/cakes/7-inch-kitkatfudge.jpg',
   },
   {
-    name: 'Kit Kat With Caramel Cake',
-    description:
-      'Two layers of chocolate cake with a chocolate and caramel filling, decorated with Kit Kat pieces and a caramel drizzle.',
-    imageUrl: '/assets/images/cakes/7_inch_kitkatcaramel.jpg',
-  },
-  {
     name: 'Cookies and Cream Cake',
     description:
       'Two layers of chocolate cake filled with chocolate cookie crumbs, decorated with cookie crunch and two oreo cookies.',
     imageUrl: '/assets/images/cakes/7_inch_cookie_cream.jpg',
   },
   {
-    name: 'Cinnamon Coffee Cake',
-    description:
-      'Buttery coffee cake filled with cinnamon sugar and topped with a delicious butter cinnamon crumble.',
-    imageUrl: '/assets/images/cakes/7_inch_coffee.jpg',
-  },
-  {
     name: 'Mocca Cake',
     description:
-      'Two layer moist chocolate cake with a coffee infused cream and mocha icing. This mocha cake is for true coffee lovers!',
+      'Two layers of vanilla cake with mocca crème and caramel filling decorated with glazed coffee on top and side finished with drizzle of caramel and chocolate decoration on top.',
+    imageUrl: '/assets/images/cakes/7_inch_mocha.jpg',
+  },
+  {
+    name: 'Caramel Cake',
+    description:
+      'Two layers of vanilla sponge with chocolate crème filling finished with a layer of caramel filling on the top and side decorated with chocolate curls on the side and chocolate drizzle on top.',
+    imageUrl: '/assets/images/cakes/7_inch_mocha.jpg',
+  },
+  {
+    name: 'Lemon Cake',
+    description:
+      'Two layers of vanilla cake with lemon crème filling finished with a layer of lemon filling on the top and side decorated with chocolate curls on side and chocolate drizzle on top.',
+    imageUrl: '/assets/images/cakes/7_inch_mocha.jpg',
+  },
+  {
+    name: 'Double Chocolate Cake',
+    description:
+      'Two layers of chocolate cake with chocolate crème filling finished with a layer of chocolate ganache on the top and side of cake decorated with chocolate curls on the side and white chocolate drizzle on top.',
+    imageUrl: '/assets/images/cakes/7_inch_mocha.jpg',
+  },
+  {
+    name: 'Pineapple Coconut Cake',
+    description:
+      'Two layers of vanilla cake with pineapple crème and coconut filling decorated with pineapple filling on top and side of cake finished with shredded coconut on side of cake and a drizzle of chocolate on top.',
+    imageUrl: '/assets/images/cakes/7_inch_mocha.jpg',
+  },
+  {
+    name: 'Strawberry Cake',
+    description:
+      'Two layers of vanilla cake with strawberry crème filling decorated with a layer of strawberry filling on top and side, finished with chocolate curls on side.',
     imageUrl: '/assets/images/cakes/7_inch_mocha.jpg',
   },
 ];

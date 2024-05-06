@@ -34,7 +34,7 @@
         {{!-- template-lint-disable  --}}
         onclick={{action (mut this.showCakesDropdown) false}}
         class="dropdown__content {{if showCakesDropdown "dropdown__content--show"}}">
-        <li class="dropdown__item"><LinkTo {{on "blur" this.onCakesBlur}} @route="cakes.everyday-cakes" class="dropdown__link">Everyday cakes</LinkTo></li>
+        <li class="dropdown__item"><LinkTo {{on "blur" this.onCakesBlur}} @route="cakes.everyday-cakes" class="dropdown__link">Round cakes</LinkTo></li>
         <li class="dropdown__item"><LinkTo {{on "blur" this.onCakesBlur}} @route="cakes.celebration-cakes" class="dropdown__link">Celebration cakes</LinkTo></li>
         <li class="dropdown__item"><LinkTo {{on "blur" this.onCakesBlur}} @route="cakes.kids-birthday-cakes" class="dropdown__link">Kids birthday cakes</LinkTo></li>
         <li class="dropdown__item"><LinkTo {{on "blur" this.onCakesBlur}} @route="cakes.eggless-cakes" class="dropdown__link">Eggless cakes</LinkTo></li>
