@@ -13,6 +13,7 @@ Router.map(function() {
     this.route('celebration-cakes');
     this.route('kids-birthday-cakes');
     this.route('eggless-cakes');
+    this.route('ethnic-cakes');
   });
   this.route('seasonals-cakes');
   this.route('about-us');
