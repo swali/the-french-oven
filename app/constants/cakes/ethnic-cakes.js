@@ -1,38 +1,26 @@
 export default [
   {
-    name: 'Black Forest Cake',
+    name: 'Gulab Jamun Cake',
     description:
-      'Two chocolate sponges with a cherry pastry filling, finished with non-dairy whipped topping and decorated with rosettes, candied cherries and chocolate shavings.',
+      'Two layers of vanilla cake with vanilla crème and gulab jamun filling decorated with gulab jamuns on top and finished with toasted coconut on side of cake.',
     imageUrl: '/assets/images/cakes/7_inch_black_forest.jpg',
   },
   {
-    name: 'Strawberries Coconut Cake',
+    name: 'Gajar Halwa Cake',
     description:
-      'Two layers of vanilla sponge filled with strawberry flavored whipped cream and finished with a trim of coconut flakes.',
+      'Two layers of vanilla cake with vanilla crème and gajar halwa filling decorated with gajar halwa on top and finished with toasted cake crumbs on side of cake.',
     imageUrl: '/assets/images/cakes/7_inch_strawberry.jpg',
   },
   {
-    name: 'Happy Birthday Chocolate Cake',
+    name: 'Mango Pandan Cake',
     description:
-      'Two 7" chocolate sponges filled with chocolate icing. Tops and sides are finished with chocolate icing and decorated with sugar roses and leaves.',
+      'Two layers of vanilla cake with vanilla crème and mango filling decorated with mango filling on top and side of cake, finished with toasted cake crumbs on side of cake with a drizzle of white chocolate on top.',
     imageUrl: '/assets/images/cakes/7_inch_happybirthday.jpg',
   },
   {
-    name: '8" Chocolate',
+    name: 'Ube Cake',
     description:
-      'Chocolate sponge finished with chocolate fudge icing and decorated with a colorful rainbow. Sides are finished with chocolate fudge trim.',
+      ' Layers of vanilla cake with ube flavored vanilla crème and pineapple filling decorated with purple coloured icing.',
     imageUrl: '/assets/images/cakes/8_inch_chocolate.jpg',
-  },
-  {
-    name: 'Chocolate or Vanilla Quarter Slab',
-    description:
-      'Two layers of cake are sandwiched together and surrounded by icing, then decorated with rosebuds. Trims available in pink, blue, yellow and purple.',
-    imageUrl: '/assets/images/cakes/chocolate-all-occasion.jpg',
-  },
-  {
-    name: 'Black Forest Quarter Slab',
-    description:
-      '10” x 7” chocolate sponge filled with cherry pastry filling, decorated with rosettes, candied cherries, chocolate cookie crunch and shavings.',
-    imageUrl: '/assets/images/cakes/eggless_black_forest_qrtr_slab.jpg',
   },
 ];
