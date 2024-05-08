@@ -1,21 +1,15 @@
 export default [
   {
-    name: 'Vanilla Birthday Cake',
+    name: 'Vanilla Cake',
     description:
       '1/2 slab sponge finished with non-dairy vanilla cream, then hand decorated with large trim.',
     imageUrl: '/assets/images/cakes/celebration_confetti_vanilla.jpg',
   },
   {
-    name: 'Chocolate Birthday Cake',
+    name: 'Chocolate Cake',
     description:
       '1/2 slab sponge finished with non-dairy chocolate cream, then hand decorated with large trim.',
     imageUrl: '/assets/images/cakes/celebration_confetti_chocolate.jpg',
-  },
-  {
-    name: 'All Occasion Chocolate Cake',
-    description:
-      'Quarter slab cake split in half and filled with chocolate icing. Surrounded by chocolate icing with a sugar rose and rosebuds. Also available in vanilla with pink, blue, yellow or purple trims.',
-    imageUrl: '/assets/images/cakes/celebration_all_occasion_chocolate.jpg',
   },
   {
     name: 'Black Forest Half Slab Cake',
@@ -30,12 +24,6 @@ export default [
     imageUrl: '/assets/images/cakes/celebration_cookies_cream_half_slab.jpg',
   },
   {
-    name: 'Vanilla Custom Cake',
-    description:
-      'Full slab sponge enrobed with vanilla cream then hand decorated with trim and choice of design.',
-    imageUrl: '/assets/images/cakes/celebration_vanilla_full_slab.jpg',
-  },
-  {
     name: 'Black Forest Quarter Slab Cake',
     description:
       '10” x 7” chocolate sponge filled with cherry pastry filling. Surrounded by non-dairy whipped topping and decorated with rosettes, candied cherries, chocolate cookie crunch and chocolate shavings.',
@@ -47,4 +35,11 @@ export default [
       'Two layers of carrot cake filled with delicious cream cheese icing . Covered with cream cheese icing, biscrunch on the sides and hand decorated with trim and icing carrots.',
     imageUrl: '/assets/images/cakes/celebration_carrot_half_slab.jpg',
   },
+  {
+    name: 'Christmas Logs',
+    description:
+      'Luxurious vanilla and chocolate sponge surrounded by choclate icing and decorated for Christmas.',
+    imageUrl: '/assets/images/cakes/seasonal_yule_log.jpg',
+  },
+
 ];

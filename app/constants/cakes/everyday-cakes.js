@@ -36,9 +36,9 @@ export default [
     imageUrl: '/assets/images/cakes/7_inch_mocha.jpg',
   },
   {
-    name: 'Caramel Cake',
+    name: 'Mocha Caramel Cake',
     description:
-      'Two layers of vanilla sponge with chocolate crème filling finished with a layer of caramel filling on the top and side decorated with chocolate curls on the side and chocolate drizzle on top.',
+      'Two layers of vanilla sponge with mocha crème filling finished with a layer of caramel filling on the top and side decorated with chocolate curls on the side and chocolate drizzle on top.',
     imageUrl: '/assets/images/cakes/caramel.jpg',
   },
   {
