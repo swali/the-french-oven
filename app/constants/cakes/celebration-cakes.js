@@ -32,7 +32,7 @@ export default [
   {
     name: 'Carrot Half Slab Cake',
     description:
-      'Two layers of carrot cake filled with delicious cream cheese icing . Covered with cream cheese icing, biscrunch on the sides and hand decorated with trim and icing carrots.',
+      'Two layers of carrot cake filled with delicious cream cheese icing. Covered with cream cheese icing, biscrunch on the sides and hand decorated with trim and icing carrots.',
     imageUrl: '/assets/images/cakes/celebration_carrot_half_slab.jpg',
   },
   {
@@ -40,6 +40,18 @@ export default [
     description:
       'Luxurious vanilla and chocolate sponge surrounded by choclate icing and decorated for Christmas.',
     imageUrl: '/assets/images/cakes/black-forest-log.jpg',
+  },
+  {
+    name: 'Strawberry Bar Cake',
+    description:
+      'Three layers of moist vanilla sponge with vanilla crème and strawberry filling finished with chocolate decorations on top of cake.',
+    imageUrl: '/assets/images/cakes/strawberry-bar.jpg',
+  },
+  {
+    name: 'Chocolate Bar Cake',
+    description:
+      'Three layers of chocolate sponge with chocolate crème and caramel filling finished with chocolate ganache and decorated with caramel icing drizzle on top of cake.',
+    imageUrl: '/assets/images/cakes/chocolate-bar.jpg',
   },
 
 ];
