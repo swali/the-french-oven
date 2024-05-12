@@ -141,8 +141,19 @@
     max-width: 75%;
     margin: 0 0 12px 0;
   }
+  &__sqf-logo {
+    width: 32px;
+    height: 32px;
+    background-image: url("/assets/images/home/sqf-logo.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 8px;
+  }
+
   &__info {
-    display: block;
+    display: flex;
+    align-items: center;
     color: #272624;
     text-transform: uppercase;
     font-size: 14px;
