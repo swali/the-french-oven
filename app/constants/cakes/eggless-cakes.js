@@ -27,6 +27,6 @@ export default [
     name: 'Sprinkle Vanilla Cake',
     description:
       'Two layers of eggless vanilla cake with vanilla icing and sprinkles.',
-    imageUrl: '/assets/images/cakes/eggless_black_forest_qrtr_slab.jpg',
+    imageUrl: '/assets/images/cakes/sprinkle.jpg',
   },
 ];

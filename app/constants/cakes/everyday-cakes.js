@@ -9,7 +9,7 @@ export default [
     name: 'Carrot Cake',
     description:
       'Two rounds of carrot cake filled with cream cheese icing, finished with cream cheese icing and decorated with icing carrots.',
-    imageUrl: '/assets/images/cakes/7-inch-carrot.jpg',
+    imageUrl: '/assets/images/cakes/carrot.jpg',
   },
   {
     name: 'Chocolate Caramel Cake',
@@ -27,19 +27,19 @@ export default [
     name: 'Cookies and Cream Cake',
     description:
       'Two layers of chocolate cake filled with chocolate cookie crumbs, decorated with cookie crunch and two oreo cookies.',
-    imageUrl: '/assets/images/cakes/7_inch_cookie_cream.jpg',
+    imageUrl: '/assets/images/cakes/cookies-and-cream.jpg',
   },
   {
-    name: 'Mocca Cake',
+    name: 'Mocha Cake',
     description:
-      'Two layers of vanilla cake with mocca crème and caramel filling decorated with glazed coffee on top and side finished with drizzle of caramel and chocolate decoration on top.',
-    imageUrl: '/assets/images/cakes/7_inch_mocha.jpg',
+      'Two layers of vanilla cake with mocha crème and caramel filling decorated with glazed coffee on top and side finished with drizzle of caramel and chocolate decoration on top.',
+    imageUrl: '/assets/images/cakes/mocha.jpg',
   },
   {
     name: 'Mocha Caramel Cake',
     description:
       'Two layers of vanilla sponge with mocha crème filling finished with a layer of caramel filling on the top and side decorated with chocolate curls on the side and chocolate drizzle on top.',
-    imageUrl: '/assets/images/cakes/caramel.jpg',
+    imageUrl: '/assets/images/cakes/mocha-caramel.jpg',
   },
   {
     name: 'Lemon Cake',
@@ -51,7 +51,7 @@ export default [
     name: 'Double Chocolate Cake',
     description:
       'Two layers of chocolate cake with chocolate crème filling finished with a layer of chocolate ganache on the top and side of cake decorated with chocolate curls on the side and white chocolate drizzle on top.',
-    imageUrl: '/assets/images/cakes/7_inch_mocha.jpg',
+    imageUrl: '/assets/images/cakes/double-chocolate.jpg',
   },
   {
     name: 'Pineapple Coconut Cake',

@@ -26,7 +26,7 @@ export default [
   {
     name: 'Little Mermaid Theme',
     description:
-      'Half Slab Chocolate Cake with mocca filling masked with butter cream icing and decorations.',
+      'Half Slab Chocolate Cake with mocha filling masked with butter cream icing and decorations.',
     imageUrl: '/assets/images/cakes/kids_mermaid.jpg',
   },
   {

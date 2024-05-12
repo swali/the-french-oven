@@ -39,7 +39,7 @@ export default [
     name: 'Christmas Logs',
     description:
       'Luxurious vanilla and chocolate sponge surrounded by choclate icing and decorated for Christmas.',
-    imageUrl: '/assets/images/cakes/seasonal_yule_log.jpg',
+    imageUrl: '/assets/images/cakes/black-forest-log.jpg',
   },
 
 ];
