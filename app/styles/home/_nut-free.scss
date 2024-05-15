@@ -27,16 +27,23 @@
     margin-left: 60px;
   }
 
-  &__no-peanut-image,
-  &__sqf-logo {
+  &__no-peanut-image {
     height: 69px;
     width: 69px;
     margin-right: 22px;
   }
 
+  &__sqf-logo {
+    height: 69px;
+    width: 89px;
+    margin-right: 22px;
+  }
+
   @media screen and (max-width: $mobile-max-width) {
+    flex-direction: column;
+
     &__images {
-      display: none;
+      margin-bottom: 35px;
     }
 
     &__description {
