@@ -26,7 +26,7 @@ export default [
   {
     name: 'Sprinkle Vanilla Cake',
     description:
-      'Two layers of eggless vanilla cake with vanilla icing and sprinkles.',
+      'Two layers of eggless vanilla cake with a filling of your choice, such as mango, custard, strawberry decorated with sprinkles.',
     imageUrl: '/assets/images/cakes/sprinkle.jpg',
   },
 ];

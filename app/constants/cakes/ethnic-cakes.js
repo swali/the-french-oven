@@ -6,10 +6,10 @@ export default [
     imageUrl: '/assets/images/cakes/gulab-jamun.jpg',
   },
   {
-    name: 'Gajar Halwa Cake',
+    name: 'Boondi',
     description:
-      'Two layers of vanilla cake with vanilla crème and gajar halwa filling decorated with gajar halwa on top and finished with toasted cake crumbs on side of cake.',
-    imageUrl: '/assets/images/cakes/gajar-halwa.jpg',
+      'Two layers of vanilla cake with vanilla crème and boondi decorated with boondi on top and finished with toasted coconut on side of cake.',
+    imageUrl: '/assets/images/cakes/boondi.jpg',
   },
   {
     name: 'Mango Pandan Cake',
