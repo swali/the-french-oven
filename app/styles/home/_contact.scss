@@ -30,20 +30,20 @@
   }
 
   &__phone-icon {
-    background-image: url("/assets/images/home/phone-icon.svg");
+    background-image: url("images/home/phone-icon.svg");
   }
 
   &__email-icon {
-    background-image: url("/assets/images/home/email-icon.svg");
+    background-image: url("images/home/email-icon.svg");
     top: 2px;
   }
 
   &__map-icon {
-    background-image: url("/assets/images/home/map-icon.svg");
+    background-image: url("images/home/map-icon.svg");
   }
 
   &__arrow-up-right-icon {
-    background-image: url("/assets/images/home/arrow-up-right-icon.svg");
+    background-image: url("images/home/arrow-up-right-icon.svg");
     height: 9px;
     width: 9px;
     margin-left: 4px;
@@ -51,7 +51,7 @@
   }
 
   &__arrow-right-icon {
-    background-image: url("/assets/images/home/arrow-right-icon.svg");
+    background-image: url("images/home/arrow-right-icon.svg");
     margin-left: 4px;
     top: 2px;
   }
@@ -84,7 +84,7 @@
 
   // get in touch subsection
   &__get-in-touch {
-    background-image: url("/assets/images/home/get-in-touch.svg");
+    background-image: url("images/home/get-in-touch.svg");
   }
 
   &__get-in-touch-header {
@@ -94,7 +94,7 @@
 
   // our location subsection
   &__our-location {
-    background-image: url("/assets/images/home/our-location.svg");
+    background-image: url("images/home/our-location.svg");
     color: #272624;
   }
 
@@ -126,7 +126,7 @@
 
   // sqf subsection
   &__sqf {
-    background-image: url("/assets/images/home/sqf.svg");
+    background-image: url("images/home/sqf.svg");
     color: #272624;
   }
 
@@ -144,7 +144,7 @@
   &__sqf-logo {
     width: 32px;
     height: 32px;
-    background-image: url("/assets/images/home/sqf-logo.svg");
+    background-image: url("images/home/sqf-logo.svg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
